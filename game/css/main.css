@@ -1,0 +1,38 @@
+.tile-wall, .tile-space, .tile-goal, #entity-player, .entity-block, .entity-success{
+    width: 36px;
+    height: 36px;
+}
+
+.tile-wall{
+    background-color: #808080;
+}
+
+.tile-space{
+    background-color: #383838;
+}
+
+.tile-goal{
+    background-color: #DD5C2F;
+}
+
+#entity-player{
+    background-color: #abec85;
+}
+
+.entity-block{
+    background-color: #AA8649;
+}
+
+.entity-success{
+    background-color: #00ff2e;
+}
+
+#game{
+    display: flex;
+    flex-direction: column;
+}
+
+#game .row{
+    display: flex;
+    flex-direction: row;
+}
